@@ -21,8 +21,8 @@
   margin: 32px auto;
 }
 
-#searchForm button {
-  padding: 10px;
+button {
+  padding: 8px 16px;
   background-color: #4e75ff;
   color: #fff;
   border: none;
@@ -30,11 +30,15 @@
   cursor: pointer;
   font-size: 16px;
   height: 40px;
-  width: 92px;
 
   &:hover {
     background-color: #6c8cff;
   }
+}
+
+#loadMoreBtn {
+  display: none;
+  margin: 32px auto;
 }
 
 #searchForm input {
